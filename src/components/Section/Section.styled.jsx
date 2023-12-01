@@ -12,8 +12,9 @@ export const Title = styled.h1`
   padding-top: 4px;
   padding-bottom: 4px;
 
+  text-transform: uppercase;
   text-align: center;
   color: #008080;
-  font-size: 28px;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 32px;
+  text-shadow: 1px 1px 1px #d1c4c4;
 `;
