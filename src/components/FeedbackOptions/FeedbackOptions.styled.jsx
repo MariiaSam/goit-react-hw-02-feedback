@@ -25,5 +25,6 @@ export const FeedbackBtn = styled.button`
   margin-bottom: 20px;
   padding: 8px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-color: #cfeb62;
+  box-shadow: rgba(216, 225, 215, 0.24) 0px 3px 8px;
 `;

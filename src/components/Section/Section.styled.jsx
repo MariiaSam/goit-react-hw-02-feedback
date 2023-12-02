@@ -6,6 +6,8 @@ export const SectionWrap = styled.section`
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
+
+  width: 100%;
 `;
 
 export const Title = styled.h1`
@@ -16,5 +18,6 @@ export const Title = styled.h1`
   text-align: center;
   color: #008080;
   font-size: 32px;
+
   text-shadow: 1px 1px 1px #d1c4c4;
 `;

@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-export const StatisticList = styled.li`
+export const StatisticWrap = styled.ul`
   background-color: #a1cbc8;
   box-shadow: rgba(209, 138, 138, 0.24) 0px 3px 8px;
-
 
   gap: 8px;
   padding: 8px;
@@ -11,7 +10,8 @@ export const StatisticList = styled.li`
   margin: 0 auto;
 
   border-radius: 16px;
-  border-top: 1px solid rgb(141, 155, 155);
+  border: 1px solid #cfeb62;
+
 `;
 
 export const StatisticDescription = styled.p`

@@ -5,8 +5,9 @@ export const NotificationDescription = styled.h2`
 
   text-align: center;
 
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
-  color: #214f4f;
+  color: #29a1a1;
+
   text-shadow: 1px 1px 1px #d1c4c4;
 `;

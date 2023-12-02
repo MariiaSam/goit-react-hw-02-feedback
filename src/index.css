@@ -1,4 +1,9 @@
 body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: white;
 
   list-style: none;
@@ -11,9 +16,7 @@ body {
 }
 
 ul{
-  list-style: none;
-
-
+list-style: none;
 }
 
 code {
