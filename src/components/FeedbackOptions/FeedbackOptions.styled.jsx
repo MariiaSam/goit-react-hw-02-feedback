@@ -18,13 +18,22 @@ export const FeedbackBtn = styled.button`
   text-transform: uppercase;
   text-align: center;
 
-  color: #008080;
-  text-shadow: 1px 1px 1px #d1c4c4;
-
   font-size: 24px;
   margin-bottom: 20px;
   padding: 8px;
   border-radius: 10px;
   border-color: #cfeb62;
   box-shadow: rgba(216, 225, 215, 0.24) 0px 3px 8px;
+
+  background-color: #eab886;
+  color: white;
+ 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width:200px;
+
+  &:active {
+    background-color: grey;
+  }
 `;

@@ -4,10 +4,15 @@ export const SectionWrap = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
 
-  width: 100%;
+  max-width: 100%;
+  width: 700px;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
 
 export const Title = styled.h1`
